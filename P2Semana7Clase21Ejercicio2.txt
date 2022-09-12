@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner teclado = new Scanner (System.in);
+    int mul13, mul15, valor, f;
+     mul13=0;
+     mul15=0;
+      for (f=1;f<=10;f++) {
+        System.out.println("Ingrese un valor: ");
+        valor=teclado.nextInt();
+        if (valor%3==0) {
+            mul13=mul13+1;
+        }
+        if (valor%5==0) {
+            mul15=mul15+1;
+        }
+      }
+    System.out.println("Cantidad de valores ingresados múltiplos de 3: ");
+    System.out.println(mul13);
+    System.out.println("Cantidad de valores ingresados múltiplos de 5: ");
+    System.out.println(mul15);
+  }
+}

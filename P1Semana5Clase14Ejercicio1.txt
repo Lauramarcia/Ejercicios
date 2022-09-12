@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner Entrada = new Scanner (System.in);
+    int reglas;
+    double nota;
+    System.out.println("¿Usted cumple las reglas de la universidad? ");
+    System.out.println("Ingrese un número: \n 1. Siempre \n 2. A veces \n 3. Nunca ");
+    reglas = Entrada.nextDouble();
+    System.out.println("¿Que nota obtuvo en el laboratorio? ");
+    nota = Entrada.nextDouble();
+    if 
+  }
+}
